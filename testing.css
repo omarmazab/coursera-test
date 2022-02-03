@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+h1 { 
+    color: cornflowerblue; 
+}
+
+body {
+    background-color: whitesmoke;
+      font-size: 30px;
+
+}
+/*margin-left: 200px;*/
+
+/* text-align: center; */
+p {color: plum;}
+.testfont {font-family: Comic Sans MS, Comic Sans, cursive;}
+
+/*turn off bullet points*/
+ul li {
+    list-style: none;
+}
+
+ul a:link,ul a:visited {
+    text-decoration: none;
+    background-color: darkcyan;
+    color: white;
+    display: block;
+    margin-bottom: 1px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border: 5px black ;
+    border-top-style: hidden; 
+    border-right list-style: hidden;
+    border-bottom-style: hidden;
+    border-left-style: solid;
+}
+
+ul a:hover, ul a:active {
+  background-color: lightcyan;
+  color: black;
+  font-size: 1.2em;
+}
+
+.top-p {
+        color: black;
+        border: solid;
+        text-align: center;
+        font-size: 16px;
+        font-size: 4vw;
+
+
+}
+.right-section {
+  border: solid;
+  background-color: darkgrey;  
+  float: right;
+  width: 48%;
+}
+.left-section {
+  border: solid;
+  background-color: darkgrey;  
+  float: left;
+  width: 48%;
+}
+img {
+    display: block;
+    width: 98%;
+    height: auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    font-size: 16px;
+    font-size: 4vw;
+    text-align: center;
+}
